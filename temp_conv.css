@@ -1,0 +1,85 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+label> input
+{
+    padding: 2px;
+    background-color: rgb(229, 232, 235);
+    border: 3px solid rgb(161, 193, 161);
+    border-radius: 15px;
+}
+#b1
+{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 3px solid rgb(161, 193, 161);
+    color: rgb(161, 193, 161);
+    padding: 2px;
+    margin: 5px;
+}
+#b1:hover{
+    color:#eee6cd;
+    background-color: rgb(23, 46, 45);
+}
+body
+{
+    background-image: url("bkg22.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all ease-out 0.5s;
+}
+
+#outer
+{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 11rem;
+    width: 35%;
+    background-color: rgba(140, 127, 127, 0.6);
+    border: 2px solid rgb(193, 187, 187);
+    border-radius: 15px;
+    padding: 4px;
+    transition: all ease-out 0.5s;
+}
+.info
+{
+    font-size: 1.2em;
+    color:rgb(57, 69, 57);
+}
+#head
+{
+    font-size: 1.5em;
+    color:rgb(161, 193, 161);
+    border: 3px solid rgb(161, 193, 161);
+    border-radius: 15px;
+    text-shadow: 5px 5px 7px rgb(52, 50, 50);
+}
+@media (max-width: 580px)
+{
+    #outer
+    {
+        width: 90%;
+        margin-top: 10rem;
+    }
+}
+@media (max-width: 400px)
+{
+    body
+    {
+        font-size: 0.6rem;
+    }
+    #outer
+    {
+        margin-top: 14rem;
+    }
+}

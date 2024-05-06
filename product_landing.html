@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/fr.ico">
+        <title>Product landing webpage Frontend</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="product_landing.css">
+    </head>
+
+    <body>
+        <header>
+        <nav>
+            <div id="navbar">
+            <ul>
+                <li><a id="home" href="product_landing.html">HOME</a></li>
+                <li><a id="cart" href="#">CART</a></li>
+                <li><a id="contact" href="#contactus">CONTACT US</a></li>
+            </ul>
+            </div>
+        </nav>
+        </header>
+        <script>
+            t=prompt("Do you want to receive latest updates from Planet Plant360");
+            if (t=="yes" || t=="Yes" || t=="YES")
+            {
+                alert("You will now recieve daily new updates.");
+            }
+            else if (t=="no" || t=="No" || t=="NO")
+            {
+                alert("Notifications turned Off");  
+            }
+            else
+            {
+                alert("!! No response !!");         
+            }
+            function func()
+            {
+                alert("Thanks for your valueable feedback !");
+            }
+        </script>
+        <div id="bkg">
+        <marquee behaviour="scroll" direction="left" scrollamount="10"><h3> WELCOME TO PLANT PRODUCT LANDING WEBPAGE </h3></marquee>
+        <br>
+        <form id="search" action="#">
+            <label for="search"> SEARCH</label>
+            <input class="input" type="text" id="search" placeholder="Enter Text" name="q">
+            <button>Search</button>
+        </form></ul>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container" id="best">
+            <h3> OUR BEST LIFE-SAVIOURS...</h3>
+            <div class="best_s">
+                <ul class="q">
+                    <li>
+                        <img height=80px src="https://nurserylive.com/cdn/shop/collections/nurserylive-bamboo-plants-category-image-551050.jpg?v=1681381522">
+                        <br>
+                        Bamboo Plant
+                    </li>
+                    <li>
+                        <img height=80px src="https://www.bhg.com/thmb/oDnjlrHprd67aYvinrMfQgVUPtQ=/5332x0/filters:no_upscale():strip_icc()/BHG-spider-plant-c0e0fdd5ec6e4c1588998ce3167f6579.jpg">
+                        <br>
+                        Chlorophytum-Spider Plant
+                    </li>
+                    <li>
+                        <img height=80px src="https://nestreeo.com/wp-content/uploads/2021/06/Asparagus-Springery-Plant-1.jpg">
+                        <br>
+                        Asparagus Sprengeri
+                    </li>
+                    <li>
+                        <img height=80px src="https://i.pinimg.com/564x/44/3d/98/443d9840e5e09f0ba74f090ba50e502f.jpg">
+                        <br>
+                        Nephrolepis Exaltata
+                    </li>
+                    <li>
+                        <img height=80px src="https://eureka-farms.com/cdn/shop/products/image_7b5a485b-f2c6-4aad-9d48-76de27029833_1100x.jpg?v=1673899491">
+                        <br>
+                        Dracaena
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container" id="fact">
+            <h3> SOME AMAZING FACTS...(DO YOU KNOW?)</h3>
+            <ul class="q" id="fct">
+                <li>80 percent of earth's original forests have been cleared or destroyed which dominated 8000 years ago.</li>
+                <br>
+                <li>70,000 plant species are utilised as medicine.</li>
+                <br>
+                <li>Peaches, Pears, apricots, quinces, strawberries, and apples are members of the rose family!</li>
+                <br>
+                <li>Bananas contain a natural chemical that can make people feel happy!</li>
+                <br>
+                <li>All teas (black, green, and white) come from the same plant, camellia sinensis.</li>
+                <br>
+                <li>Oak trees are struck by lightning more than any other tree!</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <footer>
+        <div class="container" id="contactus">
+            <h3> KNOW MORE ABOUT US..</h3>
+            <ul class="q" type="circle">
+                <li>Mail : <a title="sending email" href="mailto:planetplant360@gmail.com">E-MAIL</a></li>
+                <br>
+                <li>
+                    Contact Number : 74XXXXXXXX
+                </li>
+                <br>
+                <li>
+                    <form action="#">
+                        <textarea class="input" placeholder="&nbsp;Feedback"></textarea>
+                        <br>
+                        <button onclick="func()">Enter</button>
+                    </form>
+                </li>
+                <br>
+            </ul>
+        </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

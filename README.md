@@ -1,5 +1,4 @@
-# OIBSIP
-Tasks done in 1 month virtual internship of Oasis Infobyte
+#Mini Projects 
 <br>
 <h3>Task 1 - A Plant Product landing webpage</h3>
 <br>
